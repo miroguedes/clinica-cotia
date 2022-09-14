@@ -1,6 +1,6 @@
 :root{
-    --cor1: #eb1ccc;
-    --cor2: #95989a;
+    --cor1: #ccb90e;
+    --cor2: #12086d;
     --texto1: #fff;
     --texto2: #000;
     --texto3: #5d5d5d;
@@ -13,12 +13,20 @@
     box-sizing: border-box;
 }
 
+#logo {
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
 
+h2{
+    color: white;
+}
 
 /*form eventos*/
 
 #event-discription{
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/hrz-5.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/mainimg.jpg);
     background-position: center;
     background-size: cover;
     height: 85vh;
@@ -41,7 +49,7 @@
 #disclaimer .about-event{
     font-size: 2em;
     text-transform: uppercase;
-    max-width: 350px;
+    width: 500px;
     font-weight: bold;
     margin-bottom: 1em;
 }
@@ -55,53 +63,7 @@
     font-weight: bold;
 }
 
-#subscription-form{
-    background-color: var(--cor2);
-    padding: 2em;
-    width: 22%;
-}
-  
-#subscription-form p{
-    font-size: 1.5em;
-    color: var(--texto2);
-    margin-bottom: 1em;
 
-}
-
-.form-group{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0.8em;
-}
-
-.form-group label{
-    color: var(--texto3);
-    margin-bottom: .3em;
-    font-weight: bold;
-}
-
-.form-group input,
-.form-group select{
-    padding: 6px 8px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-}
-
-.btn{
-    background-color: var(--cor1);
-    color: var(--texto1);
-    text-transform: uppercase;
-    width: 100%;
-    border: none;
-    padding: 12px;
-    cursor: pointer;
-    opacity: 0.8;
-}
-
-.btn:hover {
-    opacity: 1;
-}
 
 /* Section Beneficios */
 
@@ -138,16 +100,16 @@
     margin-bottom: 1em;
 }
 
-#beneficio-1{
-    background-image: url("../img/sqr-1.jpg");
+#beneficio-3{
+    background-image: url("../img/consultoriosdentista.jpg");
 }
 
 #beneficio-2{
-    background-image: url("../img/sqr-2.jpg");
+    background-image: url("../img/recepçãodentistacotia.jpg");
 }
 
-#beneficio-3{
-    background-image: url("../img/sqr-3.jpg");
+#beneficio-1{
+    background-image: url("../img/fachadadentistacotia.jpg");
 }
 
 /*Event Location*/
@@ -211,7 +173,8 @@
 }
 
 .detalhe img{
-    width: 50%;
+    width: 700px;
+    height: 350px;
 }
 
 .detalhe h3{
@@ -226,6 +189,7 @@
 }
 
 .descricao-detalhe{
+    margin-top: 55px;
     width: 100%;
     padding-left: 2em;
 }
@@ -248,7 +212,7 @@
 #cta{
     height: 300px;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-     url(../img/hrz-1.jpg);
+     url(../img/agendamento.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
