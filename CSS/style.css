@@ -1,6 +1,6 @@
 :root{
-    --cor1: #ccb90e;
-    --cor2: #12086d;
+    --cor1: #FFF112;
+    --cor2: #1f236d;
     --texto1: #fff;
     --texto2: #000;
     --texto3: #5d5d5d;
@@ -17,10 +17,18 @@
     display: flex;
     width: 300px;
     height: 300px;
+    margin-right: 100px;
 }
 
 h2{
     color: white;
+    font-weight: bold;
+}
+
+#map iframe{
+    padding-top: 0;
+    height: 400px;
+    width: 1260px;
 }
 
 /*form eventos*/
@@ -29,7 +37,7 @@ h2{
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/mainimg.jpg);
     background-position: center;
     background-size: cover;
-    height: 85vh;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,19 +75,15 @@ h2{
 
 /* Section Beneficios */
 
-.beneficios-chave h2{
-    background-color: var(--cor2);
-    text-align: center;
-    padding: 2em;
-    font-weight: 500;
-}
+
 
 .beneficios {
+    margin-top: 30px;
     display: flex;
     justify-content: space-around;
     padding: 4em;
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .beneficio{
@@ -123,7 +127,7 @@ h2{
     align-items: center;
     justify-content: space-around;
     color: var(--texto1);
-    margin-bottom: 3em;
+    margin-bottom: 0;
 }
 
 #endereco,
@@ -159,6 +163,14 @@ h2{
 
 /* Event details container*/
 
+#clareamentop p{
+    width: 550px;
+}
+
+#prevencaop p{
+    width: 550px;
+}
+
 #detalhes{
     width: 80%;
     margin: 0 auto;
@@ -166,15 +178,16 @@ h2{
 
 .detalhe{
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
     gap: 5%;
     margin-bottom: 4em;
 }
 
 .detalhe img{
-    width: 700px;
-    height: 350px;
+    padding: 5px;
+    width: 50%;
+    height: 400px;
+    border-radius: 8px;
 }
 
 .detalhe h3{
@@ -220,6 +233,7 @@ h2{
     align-items: center;
     justify-content: center;
     color: var(--texto1);
+    margin-bottom: 3rem;
 }
 
 #cta h3{
@@ -235,12 +249,18 @@ h2{
     font-size: 1.2em;
 }
 
+#zapbtn img{
+    width: 200px;
+    height: auto;
+}
+
+
 /*footer*/
 
 #footer{
     text-align: center;
     color: var(--cor2);
-    height: 250px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
