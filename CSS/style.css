@@ -231,6 +231,8 @@ nav img {
     justify-content: space-between;
     align-items: center;
     gap: 5%;
+    padding-top: 25px;
+    padding-bottom: 25px;
     
 }
 
@@ -270,6 +272,10 @@ nav img {
 .descricao-detalhe ul li:last-child{
     font-weight: bold;
 
+}
+
+.descricao-detalhe p {
+    line-height: 25px;
 }
 
 /* call to action*/
