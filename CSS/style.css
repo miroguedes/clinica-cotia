@@ -80,7 +80,7 @@ nav img {
 }
 
 #cttcontainer {
-    margin-top: 150px;
+    margin-top: 135px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -93,11 +93,21 @@ nav img {
     margin-right: 5px;
 }
 
+#cttcontainer a {
+    text-decoration: none;
+    color: #fec912;
+}
+
 #cttcontainer span {
     font-size: 2.2rem;
     margin-right: 20px;
     color: #fec912;
     font-weight: bold;
+}
+
+.rt {
+    text-align: center;
+    margin-top: 15px;
 }
 
 #disclaimer h2,
@@ -231,8 +241,8 @@ nav img {
     justify-content: space-between;
     align-items: center;
     gap: 5%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     
 }
 
@@ -240,7 +250,7 @@ nav img {
     padding: 5px;
     width: 50%;
     height: 400px;
-    border-radius: 10px;
+    border-radius: 13px;
 }
 
 .detalhe h3{
