@@ -1,9 +1,6 @@
 :root{
     --cor1: #FFF112;
     --cor2: #1f236d;
-    --texto1: #fff;
-    --texto2: #000;
-    --texto3: #5d5d5d;
 }
 
 *{
@@ -15,6 +12,7 @@
 
 body {
     max-width: 1440px;
+    margin: auto;
 }
 
 #logo {
