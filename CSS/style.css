@@ -46,7 +46,7 @@ h2{
     background: linear-gradient(#001db0d7, #001db0d7), url(../img/mainimg.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 657px;
     color: var(--texto1);
 }
 
@@ -213,6 +213,11 @@ nav img {
 #detalhes-endereco{
     text-align: center;
     font-size: 1.3em;
+    
+}
+
+#detalhes-endereco p {
+    color: white;
 }
 
 #sobre-location h3{
