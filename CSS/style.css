@@ -248,6 +248,13 @@ nav img {
     background: linear-gradient(#fec912, #fec912)
 }
 
+#detalhescor h3{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
 .detalhe{
     margin-left: 120px;
     width: 80%;
