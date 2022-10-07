@@ -251,9 +251,18 @@ nav img {
 #detalhescor h3{
     text-align: center;
     font-size: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: .4rem;
 }
+
+.underline {
+    height: 0.25rem;
+    width: 20rem;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5rem;
+  }
 
 .detalhe{
     margin-left: 120px;
