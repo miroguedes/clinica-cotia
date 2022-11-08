@@ -1,0 +1,260 @@
+@media (max-width: 730px){
+
+    nav {
+        margin-right: 95px;
+    }
+
+    .logotexto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 0px;
+        margin-top: 30px;
+    }
+
+    #logo img{
+        width: 400px;
+        
+    }
+
+    /* slogan */
+
+    #disclaimer .about-event{
+        font-size: 1.4em;
+        text-align: center;
+        width: 400px;
+    }
+
+    .event-date{
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* telefone */
+
+    #cttcontainer {
+        margin-top: 90px;
+    }
+
+    /* benefícios */
+
+    .beneficios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        gap: 30px;
+        width: 100%;
+        
+    }
+
+    .beneficio img{
+        width: 350px;
+        height: 350px;
+    }
+
+    /* Especialidades */
+
+    .descricao-detalhe{
+        width: 300px;
+        
+    }
+
+    .descricao-detalhe h3{
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+    }
+
+    #clareamento{
+        font-size: 2.3rem;
+    }
+
+    .descricao-detalhe p {
+        line-height: 25px;
+        
+    }
+
+    #endereco i{
+        display: none;
+    }
+
+    #sobre-location h3{
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 585px){
+        /*call to action*/
+
+        #cta h3{
+            width: 300px;
+            text-align: center;
+            font-size: 1.4em;
+        }
+
+         /* Especialidades */
+
+    .descricao-detalhe{
+        width: 200px;
+        
+    }
+
+    .descricao-detalhe h3{
+        margin-bottom: .3rem;
+        font-size: 2rem;
+    }
+
+    #clareamento{
+        font-size: 1.8rem;
+    }
+
+    .descricao-detalhe p {
+        line-height: 22px;
+        
+    }
+
+    #detalhes-endereco{
+        text-align: center;
+        font-size: 1.1em;
+        line-height: 22px;
+    }
+    
+
+    #sobre-location h3{
+        font-size: 1.6em;
+        margin-bottom: 0;
+    }
+
+    
+}
+
+@media (max-width: 505px){
+
+    nav {
+        margin-right: 20px;
+    }
+
+    /* ctt */
+    
+    #cttcontainer span {
+        font-size: 1.4rem;
+    }
+
+    /* beneficios */
+    
+    .beneficio img{
+        width: 300px;
+        height: 300px;
+    }
+
+    /* especialidades */
+
+    #detalhescor h1{
+        font-size: 2.5rem;
+    }
+
+    .detalhe img{
+        display: none;
+    }
+
+    .descricao-detalhe{
+        width: 500px;
+        
+    }
+
+    .descricao-detalhe p {
+        text-align: justify;   
+    }
+
+    /* local */
+
+    #detalhes-endereco {
+        
+        text-align: center;
+        font-size: .96rem;
+        line-height: 22px;
+    }
+    
+
+    #sobre-location h3{
+        font-size: 1.4em;
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media (max-width: 416px){
+
+    nav img {
+        width: 30px;
+    }
+
+    #logo img{
+        width: 300px;
+    }
+
+    #disclaimer{
+        margin-top: 80px;
+    }
+
+    #disclaimer .about-event{
+        font-size: 1.2em;
+        text-align: center;
+        width: 400px;
+    }
+
+    #cttcontainer{
+        margin-left: 17px;
+        
+    }
+
+    #cttcontainer img{
+        width: 20px;
+        height: auto;
+    }
+
+    #cttcontainer .tel img{
+        width: 15px;
+    }
+
+    #cttcontainer span {
+        font-size: 1.2rem;
+    }
+
+    .rt {
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    #detalhescor h1{
+        font-size: 2rem;
+    }
+
+    #location{
+       display: flex;
+       flex-direction: column;
+       height: auto;
+    }
+
+    #endereco,
+    #sobre-location{
+        max-width: 80%;
+        margin-top: 100px;
+    }
+
+    #detalhes-endereco{
+        text-align: center;
+        font-size: 1.3em;
+               
+    }
+
+    #sobre-location h3{
+        margin-bottom: 80px;
+        text-transform: uppercase;
+    }
+
+}
